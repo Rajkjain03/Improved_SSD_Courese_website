@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CS6.302 SSD Monsoon 2025</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand:400,500,700">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand:400,500,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap">
+    <!-- Inlined CSS originally from style.css -->
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif;
+            background-color: #cee1f4;
+            color: #343a40;
+        }
+
+        html {
+            scroll-behavior: smooth;
+            scroll-padding-top: 70px;
+        }
+
+        header {
+            background-color: #94b0e9;
+        }
+
+        .navbar-brand.active,
+        .navbar-brand:hover {
+            color: #3485ff !important;
+        }
+
+        .section-title {
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 3px solid #0d6efd;
+            display: inline-block;
+        }
+
+        section {
+            background-color: #ffffff;
+            padding: 40px 30px;
+            margin-bottom: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+        }
+
+        .navbar-brand {
+            font-size: 1.5rem;
+        }
+
+        .nav-link {
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+
+        .nav-link.active,
+        .nav-link:hover {
+            color: #0d6efd !important;
+        }
+
+        .table {
+            margin-top: 1rem;
+            font-size: 0.95rem;
+        }
+
+        .table thead th {
+            vertical-align: middle;
+        }
+
+        .table-hover tbody tr:hover {
+            background-color: #eef5ff;
+        }
+
+        .cancelled-class {
+            text-decoration: line-through;
+            color: #656e75;
+        }
+
+        .emoji-note {
+            font-size: 1.2rem;
+        }
+
+        footer a {
+            color: #adb5bd;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        footer a:hover {
+            color: #ffffff;
+        }
+
+        #live-time {
+            font-size: 0.9rem;
+            color: #6c757d;
+        }
+
+        #back-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            display: none;
+            width: 50px;
+            height: 50px;
+            font-size: 1.5rem;
+            z-index: 1000;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#home">CS6.302 SSD</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#lecture">Hours</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#cpolicy">Policy</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#schedule">Lectures</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#lab">Lab</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#activity">Exams</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#staff">Staff</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header id="home" class="text-center py-5">
+        <div class="container">
+            <h1 class="display-4">CS6.302 - Software System Development</h1>
+            <p style="padding-top: 15px;" class="lead">Software Engineering Research Center, IIIT Hyderabad</p>
+            <p class="lead fw-bold">Monsoon 2025</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section id="about" class="py-5">
+            <h2 class="section-title">About</h2>
+            <p>Software System Development is a graduate-level course that equips students with a comprehensive
+                understanding of the principles, tools, and practices involved in designing and building modern software
+                systems. Emphasizing a systems-oriented perspective, the course explores foundational and contemporary
+                topics including Operating Systems, Computer Networks, Software Engineering methodologies, and Database
+                Systems (both relational and NoSQL).</p>
+            <p>Students will gain practical experience with industry-relevant tools and technologies such as Bash
+                scripting, SQL, NoSQL databases, HTML, CSS, JavaScript, front-end frameworks, RESTful APIs, Python, and
+                Flask. The course focuses on building scalable, maintainable, and secure software systems while
+                fostering an appreciation for system integration, version control, development workflows, and deployment
+                strategies.</p>
+            <p>Designed for students with a fundamental background in programming, this course bridges theory and
+                practice, preparing them to contribute effectively to complex software development projects in both
+                research and industry settings.</p>
+        </section>
+
+        <section id="lecture" class="py-5">
+            <h2 class="section-title">Lecture, Lab & Office Hours</h2>
+            <p>The lectures will be in-person and will be conducted by the Instructor. The lab sessions will be
+                in-person and will be conducted by the Teaching Assistants. The lecture material (slides, lectures
+                notes, Suppl Material) can be accessed from this website The lecture and lab hours are mentioned below:
+            </p>
+            <ul>
+                <li><b>Lecture &#x1F3DB;</b>: 8:30 AM to 9:55 AM - Tuesdays and Fridays - Lecture Hall: H-205 - 29
+                    Classes</li>
+                <li><b>Lab/Tutorial &#x1F4BB;</b>: 2:00 PM to 5:00 PM - Friday - Lecture Hall: SH1 - 14 Sessions</li>
+            </ul>
+            <p><b>Office Hours:</b> There are no specific instructor office hours. Instructor is available to meet all
+                the students for 15 minutes before every class to address any queries or concerns. You can also directly
+                write to instructor at saianirudh.karre[at]iiit.ac.in to get your queries addressed. TA office hours can
+                be found <a href="#staff">here</a>.</p>
+        </section>
+
+        <section id="cpolicy" class="py-5">
+            <h2 class="section-title">Course Policy</h2>
+            <ul>
+                <li><b>Teaching and Learning Methodology:</b> This course is designed in such a manner to help learners
+                    get the essence of principles behind good software system development. Learners will be taught
+                    concepts by making them work on real-life problems. This will promote deeper engagement, deeper
+                    understanding and resembles the true career situation. Overall Course Notes can be found <a
+                        href="https://tinted-rumba-8c6.notion.site/CS6-302-Software-System-Development-670da706e9514d7f9d5b1bcf3c6a1005"
+                        target="_blank">here</a>.</li>
+                <li><b>Academic Honesty:</b> If A helps B in a Task X -> B doesn't get opportunity to do task X, B
+                    doesn't learn the skill to do task X, B gets spoilt-dependent-unfit for jobs requiring skills of
+                    task X, You may think it is okay to do it only once and not repeat it, But when a task is done once
+                    it gets wired into the brain as being "okay" and unless there is a strong reason it will repeat. If
+                    you want to help, help to learn!</li>
+                <li><b>Zero Tolerance on Plagiarism:</b> Any forms of cheating or plagiarism will result in a score of
+                    “0” for projects, assignments or exams. Egregious cases will result in a grade of “F” for the
+                    course.</li>
+                <li><b>Use of AI Tools:</b> Students are free to use different AI tools like ChatGPT, Co-pilot, etc. for
+                    the course assignments/activities. However, please do mention what tools and how they have been used
+                    in the submission report. Please note that these tools can mislead or provide wrong solutions.</li>
+                <li><b>Submission Deadlines:</b> Considering this course has more than 100+ enrolled students, there
+                    will be NO extensions for any graded task. It is your responsibility to submit an assignment or a
+                    lab activity on a prescribed deadline.</li>
+                <li><b>Grading Policy:</b> Once a grade for certain course deliverable is released, the students may
+                    request a re-evaluation (with appropriate reasons) of the grade up to a week after the grade has
+                    been posted. After that, the student may not discuss prior grades with the instructor.</li>
+            </ul>
+            <h6>Grading Distribution</h6>
+            <div class="table-responsive">
+                <table class="table table-bordered table-striped text-center">
+                    <thead class="table-dark">
+                        <tr>
+                            <th>Deliverables</th>
+                            <th>Weightage</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Assignment (4)</td>
+                            <td>15%</td>
+                        </tr>
+                        <tr>
+                            <td>Lab Activities (14)</td>
+                            <td>15%</td>
+                        </tr>
+                        <tr>
+                            <td>Practice and Class Activity (5)</td>
+                            <td>10%</td>
+                        </tr>
+                        <tr>
+                            <td>QUIZ (2)</td>
+                            <td>10%</td>
+                        </tr>
+                        <tr>
+                            <td>MID (1)</td>
+                            <td>10%</td>
+                        </tr>
+                        <tr>
+                            <td>Final Exam (Team Project)</td>
+                            <td>40%</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section id="schedule" class="py-5">
+            <h2 class="section-title">Lecture Schedule & Content</h2>
+            <div class="table-responsive">
+                <table class="table table-striped table-hover">
+                    <thead class="table-dark">
+                        <tr class="text-center">
+                            <th>S.No</th>
+                            <th>Schedule</th>
+                            <th>Lecture Content</th>
+                            <th>Material</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section id="lab" class="py-5">
+            <h2 class="section-title">Lab Schedule & Content</h2>
+            <div class="table-responsive">
+                <table class="table table-striped table-hover">
+                    <thead class="table-dark">
+                        <tr class="text-center">
+                            <th>Lab No.</th>
+                            <th>Schedule</th>
+                            <th>Topic</th>
+                            <th>Notes</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section id="activity" class="py-5">
+            <h2 class="section-title">Exams & Activities</h2>
+            <div class="table-responsive">
+                <table class="table table-striped table-hover">
+                    <thead class="table-dark">
+                        <tr class="text-center">
+                            <th>S.No</th>
+                            <th>Exam Type</th>
+                            <th>Announcement</th>
+                            <th>Submission Due</th>
+                            <th>Material</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section id="staff" class="py-5">
+            <h2 class="section-title">Staff</h2>
+            <p><b>Instructors:</b> <a href="https://sites.google.com/view/abhishek-singh/home" target="_blank">Dr.
+                    Abhishek Singh</a>, <a href="https://sai11101989.github.io" target="_blank">Dr. Sai Anirudh
+                    Karre</a></p>
+            <p><b>Teaching Assistants:</b> Chirag Dhamija, Tejas Cavale, Divyansh Pandey, Aaditya Vardhan Narain, Kunal
+                Kamalkishire Bhosikar, Chandrasekar S, Ashwani Raj, Hiya Bhatt</p>
+        </section>
+    </main>
+
+    <footer class="bg-dark text-white text-center py-4 mt-5">
+        <div class="container">
+            <p class="mb-2">
+                <a href="https://intranet.iiit.ac.in/offices/static/files/Almanac_M25_Final-Ver2.1.pdf"
+                    target="_blank">Monsoon 2025 Almanac</a> |
+                <a href="https://intranet.iiit.ac.in/offices/static/files/Lecture%20timetable%20for%20Monsoon_2025_V1.2.pdf"
+                    target="_blank">Lecture Timetable</a> |
+                <a href="https://courses.iiit.ac.in/course/view.php?id=5324" target="_blank">Courses Portal</a>
+            </p>
+            <div id="live-time" class="mb-2"></div>
+            <p class="small mb-0">Course site hosted by GitHub.io</p>
+            <p class="small">
+                <a href="https://serc.iiit.ac.in">Software Engineering Research Center</a>, <a
+                    href="https://iiit.ac.in">IIIT Hyderabad</a>
+            </p>
+        </div>
+    </footer>
+
+    <button id="back-to-top" class="btn btn-primary rounded-circle shadow-lg">
+        <i class="bi bi-arrow-up"></i>
+    </button>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Inlined script.js -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const lectureData = [
+                [1, "01-Aug-25", "Course Intro - Software Systems", '[<a href="..." target="_blank">Slides</a>][<a href="..." target="_blank">Notes</a>]'],
+                [2, "05-Aug-25", "Relational Data", '[<a href="..." target="_blank">Slides</a>][<a href="..." target="_blank">Notes</a>]'],
+                [3, "08-Aug-25", "Unstructured Data - Session 1", '[<a href="..." target="_blank">Slides</a>][<a href="..." target="_blank">Notes</a>]'],
+                [4, "12-Aug-25", "<span class='cancelled-class'>Unstructured Data - Session 2</span> [Cancelled <span class='emoji-note'>⛈️</span>]", '[<a href="..." target="_blank">Notes</a>]'],
+                [5, "19-Aug-25", "Unstructured Data - Session 2", '[<a href="..." target="_blank">Practice</a>][<a href="..." target="_blank">Notes</a>]'],
+                [6, "22-Aug-25", "Web - HTML", '[<a href="..." target="_blank">Slides</a>][<a href="..." target="_blank">Notes</a>]'],
+                [7, "26-Aug-25", "Web - CSS", '[<a href="..." target="_blank">Notes</a>][<a href="..." target="_blank">Scripts</a>]'],
+                [8, "29-Aug-25", "JavaScript - Session 1", '[<a href="..." target="_blank">Scripts</a>][<a href="..." target="_blank">Slides</a>]'],
+                [9, "02-Sep-25", "JavaScript Session 2", '[<a href="..." target="_blank">Scripts</a>][<a href="..." target="_blank">Notes</a>]'],
+                [10, "04-Sep-25", "<span class='cancelled-class'>JavaScript Session 3</span> [Cancelled <span class='emoji-note'>🤒</span>]", '[Scripts][Notes]']
+            ];
+            const labData = [
+                ["01", "7-Aug-2025", "Git Session", '[<a href="..." target="_blank">Slides</a>][<a href="..." target="_blank">Activity</a>]'],
+                ["02", "14-Aug-2025", "SQL Session", '[<a href="..." target="_blank">Slides</a>][<a href="..." target="_blank">Activity</a>]'],
+                ["03", "21-Aug-2025", "NoSQL Session", '[<a href="..." target="_blank">Slides</a>][<a href="..." target="_blank">Activity</a>]'],
+                ["04", "28-Aug-2025", "DOM", '[<a href="..." target="_blank">Slides & Activity</a>]'],
+                ["05", "04-Sept-2025", "JS Session", '[<a href="..." target="_blank">Slides & Activity</a>]']
+            ];
+            const activityData = [
+                [1, "Assignment - SQL, NoSQL", "15-Aug-2025", "5-Sept-2025", '[<a href="..." target="_blank">Paper</a>]'],
+                [2, "Assignment - Web", "6-Sept-2025", "27-Sept-2025", '[<a href="..." target="_blank">Paper</a>]'],
+                [5, "SQL Practice", "5-Aug-2025", "10-Aug-2025", '[<a href="..." target="_blank">Paper</a>]'],
+                [7, "QUIZ 1", "29-Aug-2025 2:30 PM", "29-Aug-2025 3:30 PM", '[Paper][Key]'],
+                [10, "Final Project", "1-Sept-2025", "2-Dec-2025", '[Paper][Key]']
+            ];
+            function populateTable(tableId, data) {
+                const tableBody = document.querySelector(`#${tableId} tbody`);
+                if (!tableBody) return;
+                let content = '';
+                data.forEach(row => { content += '<tr>'; row.forEach((cell, index) => { const alignClass = (index === 0 || index === 1) ? 'text-center' : ''; content += `<td class="${alignClass}">${cell}</td>`; }); content += '</tr>'; });
+                tableBody.innerHTML = content;
+            }
+            populateTable('schedule', lectureData);
+            populateTable('lab', labData);
+            populateTable('activity', activityData);
+            function startTime() { const today = new Date(); const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', hour: '2-digit', minute: '2-digit', second: '2-digit' }; document.getElementById('live-time').innerHTML = today.toLocaleDateString('en-US', options); setTimeout(startTime, 1000); } startTime();
+            const backToTopButton = document.getElementById('back-to-top');
+            window.onscroll = function () { if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) { backToTopButton.style.display = "block"; } else { backToTopButton.style.display = "none"; } };
+            backToTopButton.addEventListener('click', () => { window.scrollTo({ top: 0, behavior: 'smooth' }); });
+            const sections = document.querySelectorAll('section[id]');
+            const navLinks = document.querySelectorAll('.navbar-nav .nav-link');
+            const observer = new IntersectionObserver(entries => { entries.forEach(entry => { if (entry.isIntersecting) { navLinks.forEach(link => { link.classList.remove('active'); if (link.getAttribute('href').substring(1) === entry.target.id) { link.classList.add('active'); } }); } }); }, { threshold: 0.5 });
+            sections.forEach(section => observer.observe(section));
+        });
+    </script>
+
+    <!-- Inlined event-tracker.js -->
+    <script>
+        (function () { 'use strict'; const CONFIG = { trackClicks: true, trackPageViews: true, trackHovers: false, consolePrefix: '🎯 [EVENT TRACKER]', colorScheme: { pageView: '#4CAF50', click: '#2196F3', hover: '#FF9800' } }; const session = { startTime: new Date(), pageViews: 0, clickCount: 0, events: [] }; function initTracker() { console.log('%c' + CONFIG.consolePrefix + ' Initialized', 'color: #4CAF50; font-weight: bold; font-size: 14px'); console.log('%c🌐 Tracking session started at: ' + session.startTime.toLocaleString(), 'color: #666'); trackPageView(); attachEventListeners(); logSessionSummary() } function trackPageView() { session.pageViews++; const pageData = { type: 'PAGE_VIEW', timestamp: new Date(), url: window.location.href, path: window.location.pathname, title: document.title, referrer: document.referrer || 'Direct', viewport: { width: window.innerWidth, height: window.innerHeight }, userAgent: navigator.userAgent }; session.events.push(pageData); console.log('%c' + CONFIG.consolePrefix + ' PAGE VIEW', `color: ${CONFIG.colorScheme.pageView}; font-weight: bold; font-size: 12px`); console.table({ 'Page Title': pageData.title, 'URL': pageData.url, 'Path': pageData.path, 'Referrer': pageData.referrer, 'Viewport': `${pageData.viewport.width} x ${pageData.viewport.height}`, 'Timestamp': pageData.timestamp.toLocaleTimeString() }); console.log('---') } function attachEventListeners() { if (CONFIG.trackClicks) { document.addEventListener('click', handleClick, true) } document.addEventListener('visibilitychange', handleVisibilityChange); window.addEventListener('beforeunload', handleBeforeUnload); console.log('%c✅ Event listeners attached', 'color: #4CAF50') } function handleClick(event) { session.clickCount++; const element = event.target; const elementData = extractElementData(element, event); session.events.push(elementData); console.group('%c' + CONFIG.consolePrefix + ' CLICK EVENT #' + session.clickCount, `color: ${CONFIG.colorScheme.click}; font-weight: bold; font-size: 12px`); console.log('%c📍 Element Information', 'color: #2196F3; font-weight: bold'); console.table({ Tag: elementData.tagName, ID: elementData.id || '(none)', Classes: elementData.classes || '(none)', Type: elementData.type || 'N/A', 'Text Content': elementData.textContent, Value: elementData.value || 'N/A' }); console.log('%c📌 Position & Timing', 'color: #673AB7; font-weight: bold'); console.table({ 'X Coordinate': elementData.coordinates.x, 'Y Coordinate': elementData.coordinates.y, 'Page X': elementData.coordinates.pageX, 'Page Y': elementData.coordinates.pageY, Timestamp: elementData.timestamp.toLocaleTimeString(), 'Time Since Load': elementData.timeSinceLoad + 'ms' }); console.log('%c🔗 DOM Path', 'color: #E91E63; font-weight: bold'); console.log(elementData.domPath); console.log('%c📦 Full Element Data:', 'color: #009688; font-weight: bold'); console.log(elementData); console.groupEnd(); console.log('---') } function extractElementData(element, event) { const rect = element.getBoundingClientRect(); return { type: 'CLICK', timestamp: new Date(), timeSinceLoad: Date.now() - session.startTime.getTime(), tagName: element.tagName.toLowerCase(), id: element.id, classes: element.className, attributes: getElementAttributes(element), textContent: element.textContent?.trim().substring(0, 100) || '', innerHTML: element.innerHTML?.substring(0, 200) || '', value: element.value || null, type: element.type || null, coordinates: { x: event.clientX, y: event.clientY, pageX: event.pageX, pageY: event.pageY, screenX: event.screenX, screenY: event.screenY }, dimensions: { width: rect.width, height: rect.height, top: rect.top, left: rect.left }, domPath: getDOMPath(element), cssSelector: getCSSSelector(element), parentElement: element.parentElement ? { tagName: element.parentElement.tagName.toLowerCase(), id: element.parentElement.id, classes: element.parentElement.className } : null, modifiers: { altKey: event.altKey, ctrlKey: event.ctrlKey, shiftKey: event.shiftKey, metaKey: event.metaKey }, computedStyles: getRelevantStyles(element) } } function getElementAttributes(element) { const attrs = {}; Array.from(element.attributes).forEach(attr => { attrs[attr.name] = attr.value }); return attrs } function getDOMPath(element) { const path = []; let current = element; while (current && current !== document.body) { let selector = current.tagName.toLowerCase(); if (current.id) { selector += `#${current.id}` } else if (current.className) { const classes = current.className.trim().split(/\s+/).join('.'); if (classes) selector += `.${classes}` } path.unshift(selector); current = current.parentElement } return 'body > ' + path.join(' > ') } function getCSSSelector(element) { if (element.id) { return `#${element.id}` } if (element.className) { const classes = element.className.trim().split(/\s+/).join('.'); return `${element.tagName.toLowerCase()}.${classes}` } return element.tagName.toLowerCase() } function getRelevantStyles(element) { const computed = window.getComputedStyle(element); return { display: computed.display, position: computed.position, backgroundColor: computed.backgroundColor, color: computed.color, fontSize: computed.fontSize, fontFamily: computed.fontFamily, cursor: computed.cursor, zIndex: computed.zIndex } } function handleVisibilityChange() { const eventData = { type: 'VISIBILITY_CHANGE', timestamp: new Date(), visible: !document.hidden }; session.events.push(eventData); console.log('%c' + CONFIG.consolePrefix + ' Page ' + (document.hidden ? 'Hidden' : 'Visible'), 'color: #FF9800; font-weight: bold') } function handleBeforeUnload() { const sessionDuration = Date.now() - session.startTime.getTime(); console.log('%c' + CONFIG.consolePrefix + ' SESSION ENDING', 'color: #F44336; font-weight: bold; font-size: 14px'); console.table({ Duration: formatDuration(sessionDuration), 'Page Views': session.pageViews, 'Total Clicks': session.clickCount, 'Total Events': session.events.length }); logSessionSummary() } function logSessionSummary() { console.group('%c📊 SESSION SUMMARY', 'color: #9C27B0; font-weight: bold; font-size: 13px'); console.table({ 'Session Start': session.startTime.toLocaleTimeString(), 'Page Views': session.pageViews, 'Total Clicks': session.clickCount, 'Total Events': session.events.length }); console.groupEnd() } function formatDuration(ms) { const seconds = Math.floor(ms / 1000); const minutes = Math.floor(seconds / 60); const hours = Math.floor(minutes / 60); if (hours > 0) return `${hours}h ${minutes % 60}m ${seconds % 60}s`; if (minutes > 0) return `${minutes}m ${seconds % 60}s`; return `${seconds}s` } window.EventTracker = { getSession: () => session, getEvents: () => session.events, getClickCount: () => session.clickCount, getPageViews: () => session.pageViews, exportData: () => JSON.stringify(session, null, 2) }; if (document.readyState === 'loading') { document.addEventListener('DOMContentLoaded', initTracker) } else { initTracker() } console.log('%c💾 To export tracking data, run: EventTracker.exportData()', 'color: #00BCD4; font-style: italic') })();
+    </script>
+</body>
+
+</html>
